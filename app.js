@@ -42,11 +42,10 @@ function start_count() {
 start.addEventListener("click", () => {
 
 
-  // if (start_button_count === 1) {
-  //   starting_count = setInterval(start_count, 1);
+  if (start_button_count === 1) {
+    starting_count = setInterval(start_count, 10);
 
-  // }
-  starting_count = setInterval(start_count, 1);
+  }
 
   start_button_count++
 
