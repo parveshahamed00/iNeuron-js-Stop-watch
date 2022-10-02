@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 10%;
+    padding: 5%;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 2.3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.buttons{
+    text-align: center;
+}
+button{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 3% 8px;
+    background-color:#1b1748;
+    color: azure;
+    border: 0;
+}
+button:hover{
+    cursor: pointer;
+        background-color:#48465e;
+        text-decoration: underline;
+
+}

@@ -57,3 +57,16 @@ stop.addEventListener("click", () => {
   clearInterval(starting_count);
   console.log('Stop-timer');
 });
+reset.addEventListener("click", () => {
+  start_button_count = 1;
+
+  clearInterval(starting_count);
+
+  minutes = 0;
+  seconds = 0;
+  milliseconds = 0;
+  millsec.innerHTML = '00';
+  min.innerHTML = '00';
+  sec.innerHTML = '00';
+  console.log('Reset-timer');
+});
